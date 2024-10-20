@@ -1,34 +1,31 @@
 name: Run Tests on Develop
 
-# This workflow will run on both push and pull request events targeting the develop branch
 on:
   push:
     branches:
-      - develop  # Runs when there is a push to the develop branch
+      - develop
   pull_request:
     branches:
-      - develop  # Runs when there is a pull request to the develop branch
+      - develop
 
 jobs:
   test:
-    # This job will run on the latest version of Ubuntu
     runs-on: ubuntu-latest
 
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # Force Node.js 20 now
+
     steps:
-      # Step 1: Checkout the code from the repository
       - name: Checkout code
-        uses: actions/checkout@v3  # Updated to use the latest version (v3)
+        uses: actions/checkout@v3
 
-      # Step 2: Set up Node.js environment
       - name: Set up Node.js
-        uses: actions/setup-node@v3  # Updated to use the latest version (v3)
+        uses: actions/setup-node@v3
         with:
-          node-version: '20'  # Use Node.js version 20 (latest LTS)
+          node-version: '20'
 
-      # Step 3: Install project dependencies
       - name: Install dependencies
-        run: npm install  # Installs the dependencies listed in package.json
+        run: npm install
 
-      # Step 4: Run the tests
       - name: Run tests
-        run: npm test  # Executes the test script defined in package.json
+        run: npm test
