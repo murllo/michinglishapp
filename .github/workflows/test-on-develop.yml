@@ -17,13 +17,13 @@ jobs:
     steps:
       # Step 1: Checkout the code from the repository
       - name: Checkout code
-        uses: actions/checkout@v2  # Action to checkout the code from the repo
+        uses: actions/checkout@v3  # Updated to use the latest version (v3)
 
       # Step 2: Set up Node.js environment
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3  # Updated to use the latest version (v3)
         with:
-          node-version: '16'  # Specify the version of Node.js to use
+          node-version: '20'  # Use Node.js version 20 (latest LTS)
 
       # Step 3: Install project dependencies
       - name: Install dependencies
