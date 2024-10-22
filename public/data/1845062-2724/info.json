@@ -1,0 +1,50 @@
+{
+  "user": {
+    "username": "@userMurllo",
+    "profileImage": "https://campusvirtual.univalle.edu.co/moodle/theme/image.php/mooveuv/core/1729288319/u/f1",
+    "socialLink": "@userMurllo"
+  },
+  "topics": [
+    {
+      "topic": "Vocabulary",
+      "questions": [
+        {
+          "question": "What is the correct translation of 'biblioteca' in English?",
+          "options": ["Library", "Bookstore", "Office", "Museum"],
+          
+          "answer": "Library"
+        },
+        {
+          "question": "Which word is a synonym for 'angry'?",
+          "options": [
+            "Happy",
+            "Furious",
+            "Calm",
+            "Excited"
+          ],
+
+          "answer": "Happy"
+        }
+      ]
+    },
+    {
+      "topic": "Idiomatic Expressions:",
+      "questions": [
+        {
+          "question": "What does the English idiom 'Break a leg' mean?",
+          "options": ["Be careful.", "Good luck.", "You will get hurt.", "It's a bad idea."],
+          
+          "answer": "Good luck."
+        },
+        {
+          "question": "What is the meaning of the idiom 'Hit the books'?",
+          "options": ["Start reading", "Go to sleep", "Study hard", "Play a game"],
+
+          "answer": "Study hard."
+        }
+      ]
+    }
+  ]
+}
+
+  
