@@ -1,0 +1,46 @@
+{
+  "user": {
+    "username": "DeibyMP",
+    "profileImage": "https://lh3.googleusercontent.com/a/ACg8ocI5HyW57rJGXB5hFf0m5bnk2dHB-GEiICO1crlMm8fVKqz0BA=s288-c-no",
+    "socialLink": "@DeibyMP"
+  },
+  "topics": [
+    {
+      "topic": "grammar",
+      "questions": [
+        {
+          "question": "Which sentence is correct?",
+          "options": ["She don't like apples.", "She doesn't likes apples.", "She doesn't like apples.", "She do not like apples."],
+          "answer": "She doesn't like apples."
+        },
+        {
+          "question": "Identify the correct use of the comma in the sentence:",
+          "options": [
+            "I bought apples oranges and bananas.",
+            "I bought apples, oranges, and bananas.",
+            " I bought apples, oranges and bananas.",
+            "I bought apples oranges, and bananas."
+          ],
+          "answer": "I bought apples, oranges, and bananas."
+        }
+      ]
+    },
+    {
+      "topic": "vocabulary",
+      "questions": [
+        {
+          "question": "What does the word 'gregarious' mean?",
+          "options": ["Shy and reserved", "Fond of company; sociable", "Tired and sleepy", "Angry and irritable"],
+          "answer": "Fond of company; sociable"
+        },
+        {
+          "question": "Which word is a synonym of 'diligent'?",
+          "options": ["lazy", "Hardworking", "Careless", "Unorganized"],
+          "answer": "Hardworking"
+        }
+      ]
+    }
+  ]
+}
+
+  
