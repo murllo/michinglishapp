@@ -1,0 +1,49 @@
+{
+  "user": {
+    "username": "iMrStevenS2",
+    "profileImage": "https://lh3.googleusercontent.com/a/ACg8ocLPImaDCDcWAjjAxmWB7qYsXnvcad6CPM7zvoK8y7mj97MHodY=s288-c-no",
+    "socialLink": "@iMrStevenS2"
+  },
+  "topics": [
+    {
+      "topic": "grammar",
+      "questions": [
+        {
+          "question": "Which sentence uses the correct conditional form?",
+          "options": [
+            "If I would have known, I will have gone.",
+            "If I had known, I would have gone.",
+            "If I will know, I would go.",
+            "If I would know, I will go."
+          ],
+          "answer": "If I had known, I would have gone."
+        },
+        {
+          "question": "Which sentence uses the passive voice correctly?",
+          "options": [
+            "The book was read by she.",
+            "The book read she.",
+            "The book was read by her.",
+            "She read the book."
+          ],
+          "answer": "The book was read by her."
+        }
+      ]
+    },
+    {
+      "topic": "vocabulary",
+      "questions": [
+        {
+          "question": "Which word is the closest antonym of 'exacerbate'?",
+          "options": ["alleviate", "intensify", "exaggerate", "aggravate"],
+          "answer": "alleviate"
+        },
+        {
+          "question": "Which word best fits the sentence: 'The scientist's ____ approach led to groundbreaking discoveries in the field of quantum mechanics'?",
+          "options": ["innovative", "conventional", "tedious", "mediocre"],
+          "answer": "innovative"
+        }
+      ]
+    }
+  ]
+}
